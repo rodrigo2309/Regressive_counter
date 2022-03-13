@@ -1,4 +1,4 @@
-let dia = localStorage.dias;
+let dia = String(localStorage.dias).padStart(2,'0');
 let hour = 24;
 let min = 60;
 let seg = 60;
@@ -18,23 +18,23 @@ function reiniciar() {
 }
 
 function mostrarNaTela(){
-    seg--;
+    seg = String(seg - 1).padStart(2,'0');
 
     if (seg == 0){
         seg = 60;
-        min--;                    
+        min = String(min - 1).padStart(2,'0');
         m.innerText = min;
     }
 
     if (min == 0){
         min = 60;
-        hour--;                    
+        hour = String(hour - 1).padStart(2,'0');
         h.innerText = hour;
     }
 
     if (hour == 0){
         hour = 24;
-        dia--;                    
+        dia = String(dia - 1).padStart(2,'0');
         d.innerText = dia;
     }
 
