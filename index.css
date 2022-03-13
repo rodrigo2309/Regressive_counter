@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+@font-face {
+    font-family: 'ROBOTO';
+    src: url(design/Roboto-Black.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    height: 100vh;
+    background: black;
+    display: grid;                    
+    align-items: center;
+}
+
+.cont {
+    display: grid;
+    /*grid-template-columns: repeat(auto-fit,minmax(280px, 400px));*/
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.cont input{
+    font-family: 'ROBOTO', 'Times New Roman', Times, serif;
+    font-style: normal;
+    color: white;
+    gap: 10px;
+    padding: 15px;
+    background: #191A18;
+    border-radius: 30px;    
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 0 none;   
+    font-size: 1rem;    
+}
+
+#botao {
+    font-family: 'ROBOTO',Times,serif ;
+    background: #21EB00;    
+    color: black;
+    font-size: 2rem;
+    font-style: normal;
+    border-radius: 30px;    
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.cont p {
+    font-family: 'ROBOTO', 'Times New Roman', Times, serif;
+    font-style: normal;                
+    /*background: #1e1e1e;                */
+    border-radius: 5px;
+    text-align: center;
+}
+
+.p1 {             
+    padding: 0rem;   
+    color: #21EB00;                
+    font-size: 3rem;
+}
+
+.p2 {
+    color: #cfd6c8;
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}     

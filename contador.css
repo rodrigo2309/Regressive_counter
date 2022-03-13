@@ -1,0 +1,86 @@
+*{
+    display: center;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    background: black;
+    box-sizing: border-box;
+}
+
+
+@font-face{
+    font-family: 'ROBOTO';
+    src: url(design/Roboto-Black.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+li  {
+    list-style: none;    
+}
+
+header {
+
+
+    /*padding: 50px;    */
+    background: black;         
+}
+
+Header input {
+    color: black;
+    background: #21EB00;
+    font-family: 'ROBOTO','Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-style: normal;
+    gap: 10px;    
+    border-radius: 30px;    
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    right: 200px;
+    top: 100px;
+}
+
+Header div{
+    color: #21EB00;
+    font-size: 3rem;
+    font-family: 'ROBOTO','Times New Roman', Times, serif;  
+    position: absolute;    
+    left: 200px;
+    top: 100px;
+}
+
+main{    
+
+    height: 100vh;
+    background: black;    
+    display: grid;                    
+    align-items: center;    
+}
+
+.countown {
+    background: black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px, 100px));
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.countown li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 1rem;                    
+    color: #09e;
+    background: black;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 4);
+    text-align: center;
+}
+
+.countown span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 5rem;                    
+}
