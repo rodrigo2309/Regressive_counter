@@ -1,10 +1,6 @@
-*{
+p {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
-
-
 
 @font-face {
     font-family: 'ROBOTO';
@@ -14,32 +10,38 @@
 }
 
 body{
-    height: 100vh;
     background: black;
+    height: 90vh;
     display: grid;                    
-    align-items: center;
+    align-items: center;  
 }
-
-.cont {
+main {
     display: grid;
-    /*grid-template-columns: repeat(auto-fit,minmax(280px, 400px));*/
     justify-content: center;
     gap: 10px;
-    padding: 10px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    
+    min-width: 320px;
+    max-width: 800px; 
+    margin: auto; 
 }
-
-.cont input{
+ 
+input{
     font-family: 'ROBOTO', 'Times New Roman', Times, serif;
     font-style: normal;
     color: white;
     gap: 10px;
     padding: 15px;
     background: #191A18;
+    
+    font-size: 3rem;    
+    text-align: center;
     border-radius: 30px;    
     padding-left: 30px;
     padding-right: 30px;
     border: 0 none;   
-    font-size: 3rem;    
 }
 
 #botao {
@@ -49,29 +51,20 @@ body{
     font-size: 3rem;
     font-style: normal;
     border-radius: 30px;    
-    padding-left: 70px;
-    padding-right: 70px;
-}
+} 
 
-.cont p {
+p {
     font-family: 'ROBOTO', 'Times New Roman', Times, serif;
     font-style: normal;                
-    /*background: #1e1e1e;                */
-    border-radius: 5px;
     text-align: center;
 }
 
 .p1 {             
-    padding: 0rem;   
     color: #21EB00;                
-    font-size: 5rem;
+    font-size: 5rem; 
 }
 
 .p2 {
     color: #cfd6c8;
-    font-size: 4rem;
-    padding-top: 1rem;
-    padding-bottom: 0rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}     
+    font-size: 3rem; 
+} 

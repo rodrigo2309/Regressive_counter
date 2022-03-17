@@ -1,35 +1,58 @@
 <!DOCTYPE html>
 <html>
     <style>
+        p {
+            margin: 0;
+        }
+        @font-face {
+            font-family: 'ROBOTO';
+            src: url(design/Roboto-Black.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
         body {
-            font-family: monospace;
-            color: #333;
-            margin: 0px;
-            padding-bottom: 60px;
+            background: gray;
+            height: 90vh;
+            display: grid;                    
+            align-items: center;  
         }
-        .teste{
-            grid-template-columns: 200px 200px;            
-        }
-        .item{
-            margin: 5px;
-            background: tomato;
-            text-align: center;
-            font-size: 1.5em;
-        }
-        .grid {
+        main{
             display: grid;
-            max-width: 400px;
-            margin: 0 auto;
-            border: 1px solid #ccc;
+            justify-content: center;
+            gap: 10px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 320px;
+            max-width: 800px; 
+            margin: auto;
         }
+        p{
+            font-family: 'ROBOTO', 'Times New Roman', Times, serif;
+            font-style: normal;                
+            border-radius: 5px;
+            text-align: center;
+            font-size: 3rem; 
+        }
+
     </style>
     <head>
         <title>Teste</title>
     </head>
     <body>
-        <section class="container grid teste">
-            <div class="item">Contador</div>
-            <div class="item">Contador2</div>            
-        </section>
+        <main>
+            <h1>Testando</h1>
+            <p>	Lorem ipsum tempor justo conubia aptent varius habitant, dictum id odio dapibus gravida placerat, tempus nam nibh magna porta metus. per lorem vehicula varius nam mattis consectetur dictumst dolor et luctus, curae risus mattis vivamus cursus non molestie donec per, blandit lacus et elit accumsan imperdiet ad sapien taciti. gravida sociosqu leo porta maecenas conubia ultricies dictumst, facilisis aptent odio vel fermentum commodo condimentum etiam, ut rhoncus imperdiet ultrices sagittis egestas. ultricies a ad pellentesque inceptos tellus ornare proin sed egestas, hac habitasse odio hendrerit ligula ornare lacinia dapibus adipiscing, fringilla semper donec facilisis ullamcorper interdum imperdiet vivamus. 
+
+                Vitae sociosqu dapibus suspendisse etiam vel purus molestie conubia tincidunt, condimentum etiam diam hac elit vehicula facilisis nisl viverra, velit sit scelerisque non volutpat vel dictum nisl. quisque eleifend varius neque diam consequat massa, cursus tempus donec duis curabitur interdum justo, cras mauris mattis conubia in. fames nisi ullamcorper phasellus eu donec, ultricies metus taciti erat habitasse, primis consectetur auctor sit. ullamcorper fames et scelerisque placerat convallis mollis eget, quam tellus varius placerat donec ligula eleifend, curae porta hac torquent lorem etiam. eros sit sem imperdiet enim inceptos class molestie fringilla nisl pretium mollis etiam feugiat, aenean nunc etiam commodo integer metus per phasellus ultrices eget egestas mauris. 
+            
+                Phasellus tincidunt a suspendisse euismod ac risus fames, scelerisque ultrices donec porttitor non porta sociosqu, etiam condimentum mattis augue mi aenean. imperdiet eros suscipit a interdum diam ut praesent maecenas ad varius lacinia ullamcorper, mauris id nulla torquent iaculis tortor ullamcorper nunc ut ultrices velit. et mollis tincidunt auctor praesent himenaeos ultrices nostra, sagittis conubia convallis facilisis fusce ad, massa mi nunc ultricies porttitor sodales. pharetra felis ut erat vivamus duis aenean litora, donec tempor quis suscipit vestibulum varius netus, donec quisque curae lorem elementum nec. proin suspendisse cursus id platea habitasse fames neque egestas, sociosqu integer iaculis habitasse eros nisl habitasse neque, senectus pellentesque curae feugiat amet habitant lectus. 
+            
+                Adipiscing accumsan enim morbi volutpat ut litora aliquam tempor netus tristique bibendum, taciti vehicula elementum tincidunt sociosqu nulla suspendisse morbi mauris lacinia, facilisis viverra eget torquent quisque nisi suspendisse ultrices conubia rutrum. posuere convallis nulla ligula suscipit vestibulum arcu ac quam mollis, sed curabitur interdum himenaeos augue egestas metus gravida lacinia etiam, luctus massa lacinia conubia libero facilisis hac netus. scelerisque lacinia class vivamus aliquam volutpat rhoncus suspendisse lacus id, fringilla odio pharetra convallis habitant malesuada condimentum per quisque vel, nam etiam enim curabitur ligula morbi vestibulum ac. ultricies dictumst mollis ligula vivamus primis enim urna lobortis bibendum, dictum est lorem iaculis etiam per morbi viverra ante commodo, consequat tristique fusce maecenas egestas viverra duis erat. 
+            
+                Aenean malesuada est enim hac erat eros, nam hac torquent habitant eu sociosqu, sem sit varius aliquam aenean. purus dictum sit donec elementum turpis dapibus nibh, fusce nam luctus adipiscing mi imperdiet a, tellus ullamcorper ornare pellentesque augue ut. sem mattis vestibulum litora nec placerat metus a posuere rutrum interdum ad nullam dictum eu tristique, tincidunt curae primis nibh lorem tincidunt turpis cubilia fringilla blandit orci elit erat. </p>
+        </main>
+        
     </body>
 </html>

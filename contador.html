@@ -5,12 +5,14 @@
         <title>Contador Regressivo</title>        
     </head>
     <body> 
-        <header>
-            <p>Faltam</p>
-            <div>Contador</div>
-            <input onclick="reiniciar()" type="button" value="Reiniciar"> 
-        </header>
         <main>
+            <div class="linha1">
+                <label>Contador</label>
+                <input class="btnRein" onclick="reiniciar()" type="button" value="Reiniciar">
+            </div>
+
+            <div class="faltam">Faltam</div>
+
             <ul class="countown">
                 <li>
                     <span class="dia" date-time>00</span>
