@@ -32,6 +32,7 @@ main {
 input::-webkit-datetime-edit{
     min-width: 100%;
     width: 100%;
+    
 }
 
 input{
@@ -41,6 +42,8 @@ input{
     gap: 10px;
     padding: 15px;
     background: #191A18;
+
+    align-items: center;
 
     font-size: 3rem;    
     text-align: center;
